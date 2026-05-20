@@ -1,23 +1,24 @@
-<h1 align="center">Slavko Mihajlovic</h1>
-<h3 align="center">Senior AI Engineer & Software Architect</h3>
-<p align="center">Building production-grade AI infrastructure across C++, Python, and TypeScript.</p>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00599C,100:3178C6&height=180&section=header&text=Slavko%20Mihajlovic&fontSize=50&fontColor=ffffff&desc=Senior%20AI%20Engineer%20%26%20Software%20Architect&descSize=18&descAlignY=70&fontAlignY=40" width="100%" />
 
 <p align="center">
-  <img src="https://img.shields.io/badge/C%2B%2B-20-00599C?style=flat&logo=cplusplus&logoColor=white" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white" />
-  <img src="https://img.shields.io/badge/CMake-064F8C?style=flat&logo=cmake&logoColor=white" />
-  <img src="https://img.shields.io/badge/Qt6-41CD52?style=flat&logo=qt&logoColor=white" />
-  <img src="https://img.shields.io/badge/llama.cpp-FFD21E?style=flat&logoColor=black" />
-  <img src="https://img.shields.io/badge/GCP-4285F4?style=flat&logo=googlecloud&logoColor=white" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1500&color=00599C&center=true&vCenter=true&width=700&height=40&lines=Building+production-grade+AI+infrastructure;Across+C%2B%2B%2C+Python%2C+and+TypeScript;Orchestration+%E2%80%A2+Retrieval+%E2%80%A2+Execution" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/C%2B%2B-20-00599C?style=flat-square&logo=cplusplus&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
+  <img src="https://img.shields.io/badge/CMake-064F8C?style=flat-square&logo=cmake&logoColor=white" />
+  <img src="https://img.shields.io/badge/Qt6-41CD52?style=flat-square&logo=qt&logoColor=white" />
+  <img src="https://img.shields.io/badge/GCP-4285F4?style=flat-square&logo=googlecloud&logoColor=white" />
 </p>
 
 ---
 
 ### About
 
-I'm focused on the orchestration, retrieval, and execution layers of AI systems — not just consuming LLM APIs, but designing the platforms that run on top of them. ~8 years of production engineering experience, the last ~2 building AI infrastructure.
+I'm focused on the orchestration, retrieval, and execution layers of AI systems — not consuming LLM APIs, but designing the platforms that run on top of them. ~<!-- YEARS-TOTAL-START -->8<!-- YEARS-TOTAL-END --> years of production engineering experience, the last ~<!-- YEARS-AI-START -->2<!-- YEARS-AI-END --> building AI infrastructure.
 
 ### What I'm building
 
@@ -28,7 +29,7 @@ I'm focused on the orchestration, retrieval, and execution layers of AI systems 
 **omnidyon-chain** · `C++20`
 
 Native LLM orchestration framework.
-140+ model integrations · 10 RAG pipelines · BSP/Pregel graph execution engine · HITL checkpointing · run-tree tracing · prompt versioning · Qt6 visual IDE.
+140+ model integrations · 10 RAG pipelines · BSP/Pregel graph execution · HITL checkpointing · run-tree tracing · prompt versioning · Qt6 visual IDE.
 
 **1,400+ tests** across foundation libraries.
 
@@ -72,17 +73,16 @@ Orchestration layer above the multi-language stack.
 
 ### Background
 
-Previously led a 22-person engineering department at Vega IT; Tech Lead on the Equifax engagement on GCP/GKE. Built the testing, observability, and architectural discipline I now apply to AI infrastructure work.
+Previously led a 22-person engineering department at Vega IT; Tech Lead on the Equifax engagement on GCP/GKE.
 
-### GitHub Activity
+### Stack
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=omnidyon&show_icons=true&theme=tokyonight&count_private=true&hide_border=true" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=omnidyon&layout=compact&theme=tokyonight&hide_border=true" />
-</p>
+C++20 · Python · TypeScript · CMake · Qt6 · llama.cpp · FastAPI · Pydantic · async/parallel execution · RAG (vector + hierarchical/RAPTOR + RRF) · agentic workflows · LLM-as-judge eval · tracing/observability · GCP/GKE
 
 ---
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/YOUR-HANDLE"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" /></a>
+  <a href="https://www.linkedin.com/in/YOUR-HANDLE">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" />
+  </a>
 </p>
