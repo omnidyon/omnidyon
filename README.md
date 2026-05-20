@@ -12,34 +12,34 @@
 
 > I work at the layer most AI engineers don't touch: the orchestration, retrieval, and execution machinery that LLM APIs sit on top of. Not consuming AI tools — designing the platforms that run them.
 
-### The omnidyon stack
+### Featured Open-Source Projects
 
-```mermaid
-graph TB
-    subgraph apps["Applications"]
-        Studio["OmniStudio<br/>Qt6 visual IDE for AI workflows"]
-        Vantage["omnidyon-vantage<br/>Offline-first AI-native dev env"]
-        Platform["omnidyon-platform<br/>TypeScript orchestration"]
-    end
+#### [omnidyon-raptor](https://github.com/omnidyon/omnidyon-raptor) — Hierarchical RAG · C++20
 
-    subgraph chain["omnidyon-chain · LLM orchestration framework · C++20"]
-        OmniChain["OmniChain<br/>140+ models · embeddings · RAG · agents"]
-        OmniFlow["OmniFlow<br/>BSP/Pregel graphs · HITL · checkpointing"]
-        OmniTrace["OmniTrace<br/>run trees · datasets · evaluation"]
-        OmniCore["OmniCore · foundation<br/>Composable&lt;I,O&gt; · messages · HTTP · JSON"]
-    end
+Standalone C++20 library implementing the [RAPTOR paper](https://arxiv.org/abs/2401.18059) — *Recursive Abstractive Processing for Tree-Organized Retrieval*. Traditional RAG retrieves isolated text chunks, limiting holistic understanding. RAPTOR recursively embeds, clusters, and summarizes chunks into a multi-level tree, then retrieves across all abstraction levels in a single query — granular detail and high-level summaries together.
 
-    subgraph standalone["Standalone libraries · C++20"]
-        Raptor["omnidyon-raptor<br/>Hierarchical RAG (RAPTOR paper)"]
-        Ralph["omnidyon-ralph<br/>Autonomous agent loops"]
-    end
+Built on FAISS, libcurl, SQLite, and `std::`. Zero custom-utility dependencies.
 
-    Studio --> OmniChain
-    Studio --> OmniFlow
-    Studio --> OmniTrace
-    Platform --> OmniChain
-    Vantage --> Raptor
-    Vantage --> Ralph
-    OmniChain --> OmniCore
-    OmniFlow --> OmniCore
-    OmniTrace --> OmniCore
+#### [omnidyon-ralph](https://github.com/omnidyon/omnidyon-ralph) — Autonomous Agent Loops · C++20
+
+Standalone C++20 library implementing RALPH — an autonomous development loop controller for AI agents. Three-state circuit breaker (Closed / HalfOpen / Open) prevents runaway loops. Intelligent exit detection requires both completion indicators and an explicit exit signal before stopping. Response classification across completion, questions, errors, and progress.
+
+Agent-agnostic via consumer-implemented `ITaskRunner` — no dependencies on any specific agent harness. Reusable across any agent stack.
+
+---
+
+### Beyond the public work
+
+These two libraries are pieces of a larger, proprietary AI infrastructure stack I've built in C++20 — covering orchestration, observability, evaluation, and supporting tooling. Architecture deep-dives available in technical interviews.
+
+### Stack
+
+`C++20` `Python` `TypeScript` · `CMake` `FAISS` `SQLite` · `FastAPI` `Pydantic` · `clang-tidy` `cppcheck` `Semgrep` · `GoogleTest` · `GCP/GKE`
+
+---
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/YOUR-HANDLE">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+</p>
