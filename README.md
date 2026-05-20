@@ -10,7 +10,7 @@
 
 ---
 
-> I work at the layer most AI engineers don't touch: the orchestration, retrieval, and execution machinery that LLM APIs sit on top of. Not consuming AI tools — designing the platforms that run them.
+> "C++ AI infrastructure engineer. Most work proprietary; two pieces public below.
 
 ### Featured Open-Source Projects
 
