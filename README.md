@@ -7,13 +7,17 @@ I'm focused on the orchestration, retrieval, and execution layers of AI systems 
 
 ## What I'm building
 
-| Project | Stack | What it does |
-|---------|-------|--------------|
-| [omnidyon-chain](https://github.com/omnidyon/omnidyon-chain) | C++20 | Native LLM orchestration framework. 140+ model integrations, 10 RAG pipelines, BSP/Pregel graph execution engine with HITL checkpointing, run-tree tracing, prompt versioning, Qt6 visual IDE. 1,400+ tests across foundation libraries. |
-| [omnidyon-raptor](https://github.com/omnidyon/omnidyon-raptor) | C++20 | Hierarchical RAG library implementing the RAPTOR paper. |
-| [omnidyon-ralph](https://github.com/omnidyon/omnidyon-ralph) | C++20 | Autonomous agent loop controller with circuit-breaker patterns. |
-| [omnidyon-vantage](https://github.com/omnidyon/omnidyon-vantage) | C++20 | Offline-first AI-native dev environment with local llama.cpp inference. |
-| [omnidyon-platform](https://github.com/omnidyon/omnidyon-platform) | TypeScript | Orchestration layer above the multi-language stack. |
+**omnidyon-chain (C++20)** — Native LLM orchestration framework. 140+ model integrations, 10 RAG pipelines, BSP/Pregel graph execution engine with HITL checkpointing, run-tree tracing, prompt versioning, Qt6 visual IDE. 1,400+ tests across foundation libraries.
+
+**omnidyon-raptor (C++20)** — Hierarchical RAG library implementing the RAPTOR paper (recursive abstractive tree-organized retrieval).
+
+**omnidyon-ralph (C++20)** — Autonomous agent loop controller with circuit-breaker patterns and intelligent exit detection.
+
+**omnidyon-vantage (C++20)** — Offline-first AI-native dev environment with local llama.cpp inference.
+
+**omnidyon-platform (TypeScript)** — Orchestration layer above the multi-language stack.
+
+*Source code proprietary. Architecture, design decisions, and selected excerpts available in technical interviews.*
 
 ## Stack
 
