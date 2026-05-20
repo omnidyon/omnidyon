@@ -1,16 +1,24 @@
-## Hi there 👋
+# Slavko Mihajlovic
 
-<!--
-**omnidyon/omnidyon** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Senior AI Engineer & Software Architect.
+Building production-grade AI infrastructure across C++, Python, and TypeScript.
 
-Here are some ideas to get you started:
+I'm focused on the orchestration, retrieval, and execution layers of AI systems — not just consuming LLM APIs, but designing the platforms that run on top of them.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## What I'm building
+
+| Project | Stack | What it does |
+|---------|-------|--------------|
+| [omnidyon-chain](https://github.com/omnidyon/omnidyon-chain) | C++20 | Native LLM orchestration framework. 140+ model integrations, 10 RAG pipelines, BSP/Pregel graph execution engine with HITL checkpointing, run-tree tracing, prompt versioning, Qt6 visual IDE. 1,400+ tests across foundation libraries. |
+| [omnidyon-raptor](https://github.com/omnidyon/omnidyon-raptor) | C++20 | Hierarchical RAG library implementing the RAPTOR paper. |
+| [omnidyon-ralph](https://github.com/omnidyon/omnidyon-ralph) | C++20 | Autonomous agent loop controller with circuit-breaker patterns. |
+| [omnidyon-vantage](https://github.com/omnidyon/omnidyon-vantage) | C++20 | Offline-first AI-native dev environment with local llama.cpp inference. |
+| [omnidyon-platform](https://github.com/omnidyon/omnidyon-platform) | TypeScript | Orchestration layer above the multi-language stack. |
+
+## Stack
+
+C++20 · Python · TypeScript · CMake · Qt6 · llama.cpp · FastAPI · async/parallel execution · RAG (vector + hierarchical/RAPTOR + RRF) · agentic workflows · LLM-as-judge eval · tracing/observability · GCP/GKE
+
+## Background
+
+~8 years of production engineering experience. Previously led a 22-person engineering department at Vega IT; Tech Lead on the Equifax engagement on GCP/GKE.
