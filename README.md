@@ -10,7 +10,7 @@
 
 ---
 
-> "C++ AI infrastructure engineer. Most work proprietary; two pieces public below.
+> C++ AI infrastructure engineer. Most work proprietary; two pieces public below.
 
 ### Featured Open-Source Projects
 
